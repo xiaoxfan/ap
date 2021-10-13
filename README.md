@@ -26,7 +26,7 @@ s.t.  ∑_i   x_ij = 1      ∀ j
 To solve LSAPs from the command line, first install the `lsap` binary using Go.
 
 ```bash
-go install github.com/ryanjoneil/ap/cmd/lsap
+go install github.com/xiaoxfan/ap/cmd/lsap
 ```
 
 `lsap` reads JSON input data in the form of a square cost matrix from standard input and writes an optimal permutation and cost to standard output.
@@ -67,7 +67,7 @@ godoc -http=localhost:6060
 Package `ap` provides solution representations and interfaces for working with assignment problems and solvers.
 
 ```bash
-go get github.com/ryanjoneil/ap
+go get github.com/xiaoxfan/ap
 ```
 
 The default representation of an assignment produced by an `Assigner` is a `Permutation`.
@@ -91,7 +91,7 @@ p.Matrix()  // p[u] == v -> m[u][v] == true
 Package `ap/lsap` provides a efficient, iterative implementation of a primal-dual linear sum assignment problem solver.
 
 ```bash
-go get github.com/ryanjoneil/ap/lsap
+go get github.com/xiaoxfan/ap/lsap
 ```
 
 LSAPs are easy to construct and solve from a cost matrix.

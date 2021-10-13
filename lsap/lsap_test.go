@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ryanjoneil/ap"
-	"github.com/ryanjoneil/ap/lsap"
+	"github.com/xiaoxfan/ap"
+	"github.com/xiaoxfan/ap/lsap"
 )
 
 func ExampleLSAP() {

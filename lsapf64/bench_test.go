@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ryanjoneil/ap/lsapf64"
+	"github.com/xiaoxfan/ap/lsapf64"
 )
 
 func randomLSAP(n int) *lsapf64.LSAP {

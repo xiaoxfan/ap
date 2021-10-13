@@ -1,3 +1,3 @@
-module github.com/ryanjoneil/ap
+module github.com/xiaoxfan/ap
 
 go 1.12

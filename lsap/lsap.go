@@ -1,6 +1,6 @@
 package lsap
 
-import "github.com/ryanjoneil/ap"
+import "github.com/xiaoxfan/ap"
 
 // LSAP solves linear sum assignment problems.
 type LSAP struct {

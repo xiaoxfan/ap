@@ -3,7 +3,7 @@ package ap_test
 import (
 	"fmt"
 
-	"github.com/ryanjoneil/ap"
+	"github.com/xiaoxfan/ap"
 )
 
 func ExamplePermutation() {

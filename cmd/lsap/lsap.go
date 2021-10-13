@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ryanjoneil/ap/lsap"
+	"github.com/xiaoxfan/ap/lsap"
 )
 
 func usage() {
